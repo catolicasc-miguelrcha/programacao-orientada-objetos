@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Aula02 - Logica de Programacao Orientada a Objetos/Aula02 - Logica de Programacao Orientada a Objetos.iml" filepath="$PROJECT_DIR$/Aula02 - Logica de Programacao Orientada a Objetos/Aula02 - Logica de Programacao Orientada a Objetos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercicos - Programacao Orientada a Objetos/Aula02 - Programacao Orientada a Objetos.iml" filepath="$PROJECT_DIR$/Exercicos - Programacao Orientada a Objetos/Aula02 - Programacao Orientada a Objetos.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/programacao-orientada-objetos.iml" filepath="$PROJECT_DIR$/.idea/programacao-orientada-objetos.iml" />
     </modules>
   </component>
