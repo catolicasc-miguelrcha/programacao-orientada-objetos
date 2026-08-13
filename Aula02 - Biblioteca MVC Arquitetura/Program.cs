@@ -12,27 +12,38 @@ namespace Biblioteca
     {
         static void Main(string[] args)
         {
+            // BookModel book = new BookModel("1", "Fundamentos da arquitetura de software: uma abordagem de engenharia", "Mark Richards, Neal Ford", "O'REILLY", "IT", false);
+            // Display book information, always (10, X) position
+            // Console.SetCursorPosition(10, 5);
+            // Console.WriteLine("Book: " + book.title);
+
             BookModel book = new BookModel();
 
-            book.ISBN = "1";
-            book.title = "Fundamentos da arquitetura de software: uma abordagem de engenharia";
-            book.author = "Mark Richards, Neal Ford";
-            book.publisher = "O'REILLY";
-            book.genre = "IT";
-            book.borrowed = false;
+            Console.Clear();
+            Console.WriteLine("-=-=-=-=-=-=  Add Book: -=-=-=-=-=-=");
 
-            book.ISBN = "2";
-            book.title = "Clean Code: A Handbook of Agile Software Craftsmanship";
-            book.author = "Robert C. Martin";
-            book.publisher = "Prentice Hall";
-            book.genre = "IT";
-            book.borrowed = false;
+            Console.SetCursorPosition(2, 1); Console.WriteLine("ISBN : ");
+            Console.SetCursorPosition(2, 2); Console.WriteLine("Title : ");
+            Console.SetCursorPosition(2, 3); Console.WriteLine("Author : ");
+            Console.SetCursorPosition(2, 4); Console.WriteLine("Genre : ");
+            Console.SetCursorPosition(2, 5); Console.WriteLine("Pages : ");
+
+            Console.WriteLine("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
+                           
+            Console.SetCursorPosition(10, 3); book.Isbn = Console.ReadLine();
+            Console.SetCursorPosition(10, 4); book.Title = Console.ReadLine();
+            Console.SetCursorPosition(10, 5); book.Author = Console.ReadLine();
+            Console.SetCursorPosition(10, 6); book.Genre = Console.ReadLine();
+            Console.SetCursorPosition(10, 7); book.Pages = int.Parse(Console.ReadLine());
 
 
-            // Display book information, always (10, X) position
-            Console.SetCursorPosition(10, 5);
-            Console.WriteLine("Book: " + book.title);
-            
+            Console.SetCursorPosition(8, 10); Console.WriteLine("Book added successfully!");
+            Console.SetCursorPosition(8, 11); Console.WriteLine("Press the any key...");
+            Console.ReadKey();
+
+            Console.Clear();
+            Console.SetCursorPosition(0, 1); Console.WriteLine("-=-=-=-=-=-=  Book Information: -=-=-=-=-=-=");
+            Console.SetCursorPosition(0, 2); Console.WriteLine("Book: " + book.Title);
 
 
         }
