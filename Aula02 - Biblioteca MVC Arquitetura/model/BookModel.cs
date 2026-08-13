@@ -25,7 +25,19 @@ namespace Biblioteca.model
         public string Publisher { get => _publisher; set => _publisher = value; }
         public string Genre { get => _genre; set => _genre = value; }
         public bool Borrowed { get => _borrowed; set => _borrowed = value; }
-        public int Pages { get => _pages; set => _pages = value; }
+        public int Pages
+        {
+            get => _pages;
+            // Set method with validation to ensure pages cannot be negative
+            set
+            {
+                if (value < 0)
+                {
+                    throw new ArgumentException("Pages cannot be negative");
+                }
+                _pages = value;
+            }
+        }
 
         // Method construct (get and set in java)
         public BookModel(string Isbn, string Title, string Author, string Genre, int Pages, bool Borrowed)
@@ -37,7 +49,7 @@ namespace Biblioteca.model
             this.Pages = Pages;
             this.Borrowed = Borrowed;
         }
-                        
+
         // Method construct null
         public BookModel()
         {

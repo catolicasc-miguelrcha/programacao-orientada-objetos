@@ -20,7 +20,7 @@ namespace Biblioteca
             BookModel book = new BookModel();
 
             Console.Clear();
-            Console.WriteLine("-=-=-=-=-=-=  Add Book: -=-=-=-=-=-=");
+            Console.SetCursorPosition(2, 0); Console.WriteLine("-=-=-=-=-=-=     Add Book:   -=-=-=-=-=-=-");
 
             Console.SetCursorPosition(2, 1); Console.WriteLine("ISBN : ");
             Console.SetCursorPosition(2, 2); Console.WriteLine("Title : ");
@@ -28,7 +28,7 @@ namespace Biblioteca
             Console.SetCursorPosition(2, 4); Console.WriteLine("Genre : ");
             Console.SetCursorPosition(2, 5); Console.WriteLine("Pages : ");
 
-            Console.WriteLine("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
+            Console.SetCursorPosition(2, 6); Console.WriteLine("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
                            
             Console.SetCursorPosition(10, 3); book.Isbn = Console.ReadLine();
             Console.SetCursorPosition(10, 4); book.Title = Console.ReadLine();
@@ -36,14 +36,16 @@ namespace Biblioteca
             Console.SetCursorPosition(10, 6); book.Genre = Console.ReadLine();
             Console.SetCursorPosition(10, 7); book.Pages = int.Parse(Console.ReadLine());
 
+            Console.Clear();
 
-            Console.SetCursorPosition(8, 10); Console.WriteLine("Book added successfully!");
-            Console.SetCursorPosition(8, 11); Console.WriteLine("Press the any key...");
+            Console.SetCursorPosition(2, 0); Console.WriteLine("Book added successfully!");
+            Console.SetCursorPosition(2, 1); Console.WriteLine("Press the any key...");
             Console.ReadKey();
 
             Console.Clear();
-            Console.SetCursorPosition(0, 1); Console.WriteLine("-=-=-=-=-=-=  Book Information: -=-=-=-=-=-=");
-            Console.SetCursorPosition(0, 2); Console.WriteLine("Book: " + book.Title);
+
+            Console.SetCursorPosition(2, 0); Console.WriteLine("-=-=-=-=-=-=  Book Information: -=-=-=-=-=-=");
+            Console.SetCursorPosition(2, 1); Console.WriteLine("Book: " + book.Title);
 
 
         }
