@@ -20,32 +20,28 @@ namespace Biblioteca
             BookModel book = new BookModel();
 
             Console.Clear();
-            Console.SetCursorPosition(2, 0); Console.WriteLine("-=-=-=-=-=-=     Add Book:   -=-=-=-=-=-=-");
-
-            Console.SetCursorPosition(2, 1); Console.WriteLine("ISBN : ");
-            Console.SetCursorPosition(2, 2); Console.WriteLine("Title : ");
-            Console.SetCursorPosition(2, 3); Console.WriteLine("Author : ");
-            Console.SetCursorPosition(2, 4); Console.WriteLine("Genre : ");
-            Console.SetCursorPosition(2, 5); Console.WriteLine("Pages : ");
-
-            Console.SetCursorPosition(2, 6); Console.WriteLine("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
+            Console.WriteLine("-=-=-=-=-=-=     Add Book:   -=-=-=-=-=-=-");
+            Console.WriteLine("ISBN : ");
+            Console.WriteLine("Title : ");
+            Console.WriteLine("Author : ");
+            Console.WriteLine("Genre : ");
+            Console.WriteLine("Pages : ");
+            Console.WriteLine("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
                            
-            Console.SetCursorPosition(10, 3); book.Isbn = Console.ReadLine();
-            Console.SetCursorPosition(10, 4); book.Title = Console.ReadLine();
-            Console.SetCursorPosition(10, 5); book.Author = Console.ReadLine();
-            Console.SetCursorPosition(10, 6); book.Genre = Console.ReadLine();
-            Console.SetCursorPosition(10, 7); book.Pages = int.Parse(Console.ReadLine());
-
+            book.Isbn = Console.ReadLine();
+            book.Title = Console.ReadLine();
+            book.Author = Console.ReadLine();
+            book.Genre = Console.ReadLine();
+            book.Pages = int.Parse(Console.ReadLine());
             Console.Clear();
 
-            Console.SetCursorPosition(2, 0); Console.WriteLine("Book added successfully!");
-            Console.SetCursorPosition(2, 1); Console.WriteLine("Press the any key...");
+            Console.WriteLine("Book added successfully!");
+            Console.WriteLine("Press the any key...");
             Console.ReadKey();
 
             Console.Clear();
-
-            Console.SetCursorPosition(2, 0); Console.WriteLine("-=-=-=-=-=-=  Book Information: -=-=-=-=-=-=");
-            Console.SetCursorPosition(2, 1); Console.WriteLine("Book: " + book.Title);
+            Console.WriteLine("-=-=-=-=-=-=  Book Information: -=-=-=-=-=-=");
+            Console.WriteLine("Book: " + book.Title);
 
 
         }
