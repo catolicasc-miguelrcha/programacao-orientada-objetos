@@ -16,7 +16,7 @@ namespace Biblioteca.model
         private String _course;
         private int _age;
 
-        public string Uuid { get => _uuid; set => _uuid = value; }
+        public string Uuid { get => _uuid; set => _uuid = value`; }
         public string Name { get => _name; set => _name = value; }
         public string Email { get => _email; set => _email = value; }
         public string Phone { get => _phone; set => _phone = value; }
