@@ -1,7 +1,0 @@
-C:\Users\miguel.xavier\source\repos\Biblioteca\bin\Debug\Biblioteca.exe.config
-C:\Users\miguel.xavier\source\repos\Biblioteca\bin\Debug\Biblioteca.exe
-C:\Users\miguel.xavier\source\repos\Biblioteca\bin\Debug\Biblioteca.pdb
-C:\Users\miguel.xavier\source\repos\Biblioteca\obj\Debug\Biblioteca.csproj.AssemblyReference.cache
-C:\Users\miguel.xavier\source\repos\Biblioteca\obj\Debug\Biblioteca.csproj.CoreCompileInputs.cache
-C:\Users\miguel.xavier\source\repos\Biblioteca\obj\Debug\Biblioteca.exe
-C:\Users\miguel.xavier\source\repos\Biblioteca\obj\Debug\Biblioteca.pdb

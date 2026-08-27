@@ -1,4 +1,6 @@
 ﻿using Biblioteca.model;
+using Biblioteca.controller;
+using Biblioteca.view;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,50 +15,37 @@ namespace Biblioteca
         static void Main(string[] args)
         {
 
-            Screen screen = new Screen(ConsoleColor.Green, ConsoleColor.Blue);
+            Screen screen = new Screen(ConsoleColor.Magenta, ConsoleColor.Cyan);
+            BookController bookController = new BookController();
 
-            screen.ScreenSetup();
-            screen.FrameAssembly(0, 0, 79, 24);
-            screen.CenterText("Sistema de Biblioteca", 1, 0, 79);
+            while (true)
+            {
+                screen.ScreenSetup();
+                screen.FrameAssembly(0, 0, 79, 24);
+                screen.CenterText("Sistema de Biblioteca", 1, 0, 79);
 
-            screen.FrameAssembly(5, 3, 30, 10);
-            screen.CenterText("[1] Cadastrar Livro", 4, 5, 30);
 
-            screen.FrameAssembly(40, 10, 75, 23);
-            screen.CenterText("Lista de Livros", 11, 40, 75);
+                screen.FrameAssembly(1, 2, 30, 10);
+                screen.CenterText("Menu", 3, 1, 30);
 
-            // popup
-            screen.FrameAssembly(40, 10, 75, 23);
-            screen.CenterText("Avisos importantes", 8, 20, 60);
+                //opc
+                Console.SetCursorPosition(2, 4); Console.WriteLine("1 - Livros");
+                Console.SetCursorPosition(2, 5); Console.WriteLine("2 - Alunos");
+                Console.SetCursorPosition(2, 6); Console.WriteLine("3 - Emprestimos");
+                Console.SetCursorPosition(2, 7); Console.WriteLine("4 - Relatorios");
+                Console.SetCursorPosition(2, 8); Console.WriteLine("0 - Sair");
+                Console.SetCursorPosition(2, 9); Console.WriteLine("Escolha uma opção: ");
+                string opc = Console.ReadLine();
 
-            Console.ReadKey();
+                if (opc == "0") { screen.CenterText("Saindo do sistema... Acione uma tecla para continuar...", 23, 0, 79); Console.ReadKey(); break; }
+                else if (opc == "1") { bookController.RunExcecution(); }
+                else if (opc == "2") { }
+                else if (opc == "3") { }
+                else if (opc == "4") { }
+                else { screen.CenterText("Opção inválida! Acione uma tecla para continuar...", 23, 0, 79); }
 
-            // BookModel book = new BookModel();
-
-            // Console.Clear();
-            // Console.WriteLine("-=-=-=-=-=-=     Add Book:   -=-=-=-=-=-=-");
-            // Console.WriteLine("ISBN : ");
-            // Console.WriteLine("Title : ");
-            // Console.WriteLine("Author : ");
-            // Console.WriteLine("Genre : ");
-            // Console.WriteLine("Pages : ");
-            // Console.WriteLine("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
-                           
-            // book.Isbn = Console.ReadLine();
-            // book.Title = Console.ReadLine();
-            // book.Author = Console.ReadLine();
-            // book.Genre = Console.ReadLine();
-            // book.Pages = int.Parse(Console.ReadLine());
-            // Console.Clear();
-
-            // Console.WriteLine("Book added successfully!");
-            // Console.WriteLine("Press the any key...");
-            // Console.ReadKey();
-
-            // Console.Clear();
-            // Console.WriteLine("-=-=-=-=-=-=  Book Information: -=-=-=-=-=-=");
-            // Console.WriteLine("Book: " + book.Title);
-
+                Console.ReadKey();
+            }
 
         }
     }

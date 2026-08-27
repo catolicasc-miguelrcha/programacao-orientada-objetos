@@ -16,14 +16,14 @@ namespace Biblioteca.view
 
         public Screen()
         {
-            this.TextColor = ConsoleColor.Green;
-            this.BackgroundColor = ConsoleColor.Black;
+            this.TextColor = ConsoleColor.White;
+            this.BackgroundColor = ConsoleColor.Red;
         }
 
         public Screen(ConsoleColor textColor, ConsoleColor backgroundColor)
         {
-            this.TextColor = text;
-            this.BackgroundColor = background;
+            this.TextColor = textColor;
+            this.BackgroundColor = backgroundColor;
         }
 
         public void CenterText(string text, int line, int y, int x)
@@ -54,28 +54,28 @@ namespace Biblioteca.view
             for (Column = column; Column < column + width; Column++)
             {
                 Console.SetCursorPosition(Column, line);
-                Console.Write("="); // 205
+                Console.Write("═"); // 205
                 Console.SetCursorPosition(Column, line + height);
-                Console.Write("="); // 205
+                Console.Write("═"); // 205
             }
 
             for (Line = line; Line < line + height; Line++)
             {
                 Console.SetCursorPosition(column, Line);
-                Console.Write("|"); // 186
+                Console.Write("║"); // 186
                 Console.SetCursorPosition(column + width, Line);
-                Console.Write("|"); // 186
+                Console.Write("║"); // 186
             }
 
 
             Console.SetCursorPosition(column, line);
-            Console.Write("+");
-            Console.SetCursorPosition(column, line);
-            Console.Write("+");
-            Console.SetCursorPosition(line, column);
-            Console.Write("+");
-            Console.SetCursorPosition(line, column);
-            Console.Write("+");
+            Console.Write("╔");
+            Console.SetCursorPosition(column + width, line);
+            Console.Write("╗");
+            Console.SetCursorPosition(column, line + height);
+            Console.Write("╚");
+            Console.SetCursorPosition(column + width, line + height);
+            Console.Write("╝");
         }
 
         public void ScreenSetup()

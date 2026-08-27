@@ -1,0 +1,14 @@
+/Users/miguelrocha/Documents/programacao-orientada-objetos/Aula02 - Biblioteca MVC Arquitetura/bin/Debug/net10.0/Biblioteca
+/Users/miguelrocha/Documents/programacao-orientada-objetos/Aula02 - Biblioteca MVC Arquitetura/bin/Debug/net10.0/Biblioteca.dll.config
+/Users/miguelrocha/Documents/programacao-orientada-objetos/Aula02 - Biblioteca MVC Arquitetura/bin/Debug/net10.0/Biblioteca.deps.json
+/Users/miguelrocha/Documents/programacao-orientada-objetos/Aula02 - Biblioteca MVC Arquitetura/bin/Debug/net10.0/Biblioteca.runtimeconfig.json
+/Users/miguelrocha/Documents/programacao-orientada-objetos/Aula02 - Biblioteca MVC Arquitetura/bin/Debug/net10.0/Biblioteca.dll
+/Users/miguelrocha/Documents/programacao-orientada-objetos/Aula02 - Biblioteca MVC Arquitetura/bin/Debug/net10.0/Biblioteca.pdb
+/Users/miguelrocha/Documents/programacao-orientada-objetos/Aula02 - Biblioteca MVC Arquitetura/obj/Debug/net10.0/Biblioteca.GeneratedMSBuildEditorConfig.editorconfig
+/Users/miguelrocha/Documents/programacao-orientada-objetos/Aula02 - Biblioteca MVC Arquitetura/obj/Debug/net10.0/Biblioteca.csproj.CoreCompileInputs.cache
+/Users/miguelrocha/Documents/programacao-orientada-objetos/Aula02 - Biblioteca MVC Arquitetura/obj/Debug/net10.0/Biblioteca.sourcelink.json
+/Users/miguelrocha/Documents/programacao-orientada-objetos/Aula02 - Biblioteca MVC Arquitetura/obj/Debug/net10.0/Biblioteca.dll
+/Users/miguelrocha/Documents/programacao-orientada-objetos/Aula02 - Biblioteca MVC Arquitetura/obj/Debug/net10.0/refint/Biblioteca.dll
+/Users/miguelrocha/Documents/programacao-orientada-objetos/Aula02 - Biblioteca MVC Arquitetura/obj/Debug/net10.0/Biblioteca.pdb
+/Users/miguelrocha/Documents/programacao-orientada-objetos/Aula02 - Biblioteca MVC Arquitetura/obj/Debug/net10.0/Biblioteca.genruntimeconfig.cache
+/Users/miguelrocha/Documents/programacao-orientada-objetos/Aula02 - Biblioteca MVC Arquitetura/obj/Debug/net10.0/ref/Biblioteca.dll
