@@ -6,21 +6,20 @@ using System.Threading.Tasks;
  
 namespace Biblioteca.view
 {
-    internal class LivroView
+    internal class AlunoView
     {
         // atributos
         private int _colIni, _linIni, _colFin, _linFin, _colDados, _linDados;
         private List<string> _campos;
  
         // construtor
-        public LivroView()
+        public AlunoView()
         {
             this._campos = new List<string>();
-            this._campos.Add("ISBN    :");
-            this._campos.Add("Título  :");
-            this._campos.Add("Autor   :");
-            this._campos.Add("Gênero  :");
-            this._campos.Add("Páginas :");
+            this._campos.Add("Matrícula:");
+            this._campos.Add("Nome    :");
+            this._campos.Add("Email   :");
+            this._campos.Add("Telefone:");
  
             this._colIni = 22;
             this._linIni = 2;

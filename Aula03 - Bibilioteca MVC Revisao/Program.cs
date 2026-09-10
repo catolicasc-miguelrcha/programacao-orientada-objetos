@@ -24,16 +24,15 @@ namespace Biblioteca
 
             while (true)
             {
-                tela.MontarMoldura(0,0,79,24,"Sistema de Biblioteca");
+                tela.MontarMoldura(0, 0, 79, 24, "Sistema de Biblioteca");
                 opcao = tela.MostrarMenu(opcoes, 30, 10);
 
                 if (opcao == "0") break;
-                else
-                {
-                    tela.Centralizar("Opção inválida! Acione uma tecla.",
-                        1, 78, 23);
-                    Console.ReadKey();
-                }
+                else if (opcao == "1") livroController.ExecutarCRUD();
+                else if (opcao == "2") alunoController.ExecutarCRUD();
+                //else if (opcao == "3") { }
+                //else if (opcao == "4") { }
+                else { tela.Centralizar("Opção inválida! Acione uma tecla para continuar...", 23, 0, 79); Console.ReadKey(); }
             }
 
             Console.Clear();
