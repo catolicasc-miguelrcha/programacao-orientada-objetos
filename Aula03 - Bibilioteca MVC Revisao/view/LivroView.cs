@@ -24,13 +24,23 @@ namespace Biblioteca.view
 
             this._colIni = 20;
             this._linIni = 5;
-            this._colFin = _colIni + this._campos[0].Length + 1;
+            this._colFin = _colIni + this._campos[0].Length + 1 + 30;
             this._linFin = _linIni + this._campos.Count + 1;
         }
 
-        public void DizerOi()
+        public void mostrarFormulario()
         {
-            Console.WriteLine("Oi... eu sou o LivroView");
+            Tela tela = new Tela();
+            tela.montarMoldura(this._colIni, this._linIni, this._colFin, this._linFin, "Cadastro de Livro");
+
+            int linha = this._linIni + 2;
+
+            foreach (string campo in this._campos)
+            {
+                Console.SetCursorPosition(this._colIni + 1, linha);
+                Console.Write(campo);
+                linha++;
+            }
         }
     }
 }

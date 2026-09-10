@@ -31,10 +31,9 @@ namespace Biblioteca.controller
                 );
         }
 
-        public void DizerOi()
+        public void executarCRUD()
         {
-            Console.WriteLine("Oi... aqui é LivroController.");
-            this._livroView.DizerOi();
+            this._livroView.mostrarTela();
         }
 
     }
