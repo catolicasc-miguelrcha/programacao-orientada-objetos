@@ -1,0 +1,24 @@
+C:\Users\paulo.manseira\Desktop\2A-POO\Biblioteca\bin\Debug\Biblioteca.exe.config
+C:\Users\paulo.manseira\Desktop\2A-POO\Biblioteca\bin\Debug\Biblioteca.exe
+C:\Users\paulo.manseira\Desktop\2A-POO\Biblioteca\bin\Debug\Biblioteca.pdb
+C:\Users\paulo.manseira\Desktop\2A-POO\Biblioteca\obj\Debug\Biblioteca.csproj.AssemblyReference.cache
+C:\Users\paulo.manseira\Desktop\2A-POO\Biblioteca\obj\Debug\Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\paulo.manseira\Desktop\2A-POO\Biblioteca\obj\Debug\Biblioteca.exe
+C:\Users\paulo.manseira\Desktop\2A-POO\Biblioteca\obj\Debug\Biblioteca.pdb
+C:\Users\paulo.manseira\Desktop\2A-POO\Biblioteca\obj\Debug\Biblioteca.exe.config
+C:\Users\paulo.manseira\Desktop\2A POO\Biblioteca\bin\Debug\Biblioteca.exe.config
+C:\Users\paulo.manseira\Desktop\2A POO\Biblioteca\bin\Debug\Biblioteca.exe
+C:\Users\paulo.manseira\Desktop\2A POO\Biblioteca\bin\Debug\Biblioteca.pdb
+C:\Users\paulo.manseira\Desktop\2A POO\Biblioteca\obj\Debug\Biblioteca.csproj.AssemblyReference.cache
+C:\Users\paulo.manseira\Desktop\2A POO\Biblioteca\obj\Debug\Biblioteca.exe.config
+C:\Users\paulo.manseira\Desktop\2A POO\Biblioteca\obj\Debug\Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\paulo.manseira\Desktop\2A POO\Biblioteca\obj\Debug\Biblioteca.exe
+C:\Users\paulo.manseira\Desktop\2A POO\Biblioteca\obj\Debug\Biblioteca.pdb
+C:\Users\paulo\OneDrive\Desktop\2A-2026-09-09-Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.AssemblyReference.cache
+C:\Users\paulo\OneDrive\Desktop\2A-2026-09-09-Biblioteca\Biblioteca\obj\Debug\Biblioteca.exe.config
+C:\Users\paulo\OneDrive\Desktop\2A-2026-09-09-Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\paulo\OneDrive\Desktop\2A-2026-09-09-Biblioteca\Biblioteca\obj\Debug\Biblioteca.exe
+C:\Users\paulo\OneDrive\Desktop\2A-2026-09-09-Biblioteca\Biblioteca\obj\Debug\Biblioteca.pdb
+C:\Users\paulo\OneDrive\Desktop\2A-2026-09-09-Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe.config
+C:\Users\paulo\OneDrive\Desktop\2A-2026-09-09-Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe
+C:\Users\paulo\OneDrive\Desktop\2A-2026-09-09-Biblioteca\Biblioteca\bin\Debug\Biblioteca.pdb
